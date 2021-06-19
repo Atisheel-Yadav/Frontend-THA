@@ -1,0 +1,38 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+display: flex;
+/* align-items: center; */
+align-self: center;
+justify-content: center;
+    box-sizing: border-box;
+    /* border: 2px solid black; */
+    /* height: 400px;
+    width: 400px; */
+    /* margin: 73px; */
+    /* margin-left: 460px; */
+
+
+}
+.centre-box{
+    border: 2px solid black;
+    display: grid ;
+    grid-template-columns: repeat(20,1.5rem);
+    grid-template-rows: repeat(20,1.5rem);
+    /* background-color: red; */
+
+}
+.box1{
+    background-color: red;
+    border: 2px solid black;
+}
+.changecolor{
+    background-color: seashell;
+    border: none;
+}
+
+
+
