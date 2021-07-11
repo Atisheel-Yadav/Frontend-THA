@@ -1,0 +1,29 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background: #f7f8f8; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #f7f8f8, #acbb78); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #f7f8f8, #acbb78); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+     /* box-sizing: border-box; 
+    border: 2px solid black;  */
+    position: relative;
+    top: 90px;
+    
+}
+.container img{
+    border: 2px solid black;
+    padding: 18px;
+    background-color: aquamarine;
+    border-radius: 20px;
+}
+h1{
+   font-family: cursive;
+}
