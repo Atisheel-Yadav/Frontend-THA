@@ -1,0 +1,51 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+body{
+  background: #f7f8f8; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #f7f8f8, #acbb78); 
+  background: linear-gradient(to right, #f7f8f8, #acbb78); 
+}
+.container{
+  display: flex;
+  position: relative;
+  top: 150px;
+   
+    justify-content: center;
+}
+/* .container1{
+   display: grid; */
+    /* grid-template-rows: repeat(8,2.5em);
+    grid-template-columns: repeat(8,3.1em); */
+    /* grid-template-rows: repeat(8,1fr);
+    grid-template-columns: repeat(8,1fr); */
+
+.chess {
+  display: grid;
+  grid-template-rows: repeat(8,3.3em);
+  grid-template-columns: repeat(8,3.4em);
+  border: 1.3rem solid black;
+  opacity: 0.8;
+}
+
+.square{
+  border: 1.6px solid rgb(22, 17, 17);
+  height: 100%;
+  width: 100%;
+}
+
+.square:nth-child(even),.square1:nth-child(odd){
+  background-color: rgb(0, 0, 0);
+}
+.square:nth-child(even),.square1:nth-child(odd){
+  background-color: rgb(3, 3, 3);
+}
+
+
+
+
+
+
+
+
