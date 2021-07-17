@@ -1,0 +1,33 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Festive', cursive;
+}
+body{
+  background: #dad299; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #dad299, #b0dab9); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #dad299, #b0dab9);
+}
+.header{
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 170px;
+  font-size: 39px;
+
+}
+button{
+  padding: 6px;
+    margin: 10px;
+    width: 68px;
+    position: relative;
+    top: 185px;
+    left: 38%;
+    font-size: 2rem;
+    border-radius: 13px;
+    cursor: pointer;
+}
+button:hover{
+  background-color: rgb(100, 237, 118);
+}
