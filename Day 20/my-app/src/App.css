@@ -1,0 +1,48 @@
+body{
+  background: #ff4b1f;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #ff9068, #ff4b1f);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #ff9068, #ff4b1f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  overflow-x: hidden;
+  overflow-y: scroll;
+  height: 50%;
+  
+}
+.cards{
+  border: 2px solid black;
+    box-shadow: aqua;
+    border-radius: 16px;
+    margin: 3px;
+    padding: 7px;
+    padding-left: 14px;
+    background-color: antiquewhite;
+}
+.btn{
+   border: 2px solid rgb(0, 0, 0);
+   border-radius: 7px;
+   font-size: 18px;
+   cursor: pointer;
+}
+.btn:hover{
+  color: rgb(255, 60, 0);
+}
+.cards1{
+  border: 2px solid black;
+  border-radius: 10px;
+}
+.Empty{
+  display: flex;
+    height: 49vh;
+    width: 50vw;
+    justify-content: center;
+    font-size: xxx-large;
+   
+}
