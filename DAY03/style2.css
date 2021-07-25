@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    padding: 0px;
+   
+}
+
+.h-primary{
+    text-align: center;
+    position: relative;
+    top: 144px;
+    left: -236px;
+}
+.left{
+    box-sizing: border-box;
+    border: 2px solid black;
+    padding: 96px 56px;
+    padding-bottom: 134.1px;
+    margin: 30px 30px;
+    margin-left: 108px;
+    margin-right: 486px;
+    position: relative;
+    bottom: -69px;
+}
+.vl {
+    border-left: 3px solid black;
+    height: 734px;
+    /* bottom: 34px; */
+    position: absolute;
+    left: 34%;
+    margin-left: -9px;
+    top: 248px;
+  }
+  .right{
+    margin: 45px;
+    padding-left: 513px;
+    position: relative;
+    top: -751px;
+}
+  

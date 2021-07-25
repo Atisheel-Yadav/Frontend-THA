@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="p1"></p>
+    <script>
+        const student={
+            fullName:function(){
+                return this.firstName +" "+this.lastName;
+            }
+        }
+        let std1={
+            firstName:'Atisheel',
+            lastName:'Yadav',
+            // fullName:function(){
+            //     return this.firstName + "" +this.lastName
+            }
+        
+        let std2={
+            firstName:'Rohan',
+            lastName:'Yadav',
+        }
+      let c = student.fullName.call(std2);
+        document.getElementById('p1').innerHTML=c
+    // let c=std1.fullName()
+    // document.getElementById('p1').innerHTML=c
+    </script>
+</body>
+</html>
