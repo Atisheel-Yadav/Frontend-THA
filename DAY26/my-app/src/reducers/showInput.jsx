@@ -10,13 +10,13 @@ const showInput=(state=initialState,action)=>{
         case 'name':
           return{
              ...state,
-             name:"action.payload"
+             name:action.payload
           }
             
         case 'email':
             return{
                 ...state,
-                email:'action.payload'
+                email:action.payload
             }
     
         default:
